@@ -37,25 +37,14 @@ div {
   margin-bottom: 0;
 }
 
-.BG {
+.BG__uvodni-fotky {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
 }
-.BG__uvodni-fotky {
-  flex-direction: row;
-  justify-content: center;
-}
-.BG__obrazek {
-  /* 
-  flex-flow: column;
- */
 
-  justify-content: space-between;
-  margin: 2vw;
-  padding: 0.2vw;
   /*  box-shadow: #4d4d4d 4px 6px 20px; */
-}
+
 
 figcaption {
   text-align: center;
@@ -64,41 +53,29 @@ figcaption {
 }
 
 figure img {
-  width: 15rem;
-  height: 15rem;
+  width: 15em;
+  height: 15em;
 }
 
-.BG__obrazek {
-  width: 14rem;
-  height: 1rem;
-}
 .BG__text--detaily {
   margin-bottom: 2.5rem;
 }
 
-.bylinar {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
-}
+
 .bylinar__bylina--obr {
   flex-direction: row;
+  max-width: 45 vw;
   justify-content: center;
+/*   box-shadow: #4d4d4d 4px 6px 20px; */
+  font-size: 100%;
+  margin: auto; 
+  padding:0.5rem;
 }
 
-/* 
-.bylinar__bylina--obr {
-  max-width: 45 vw;
-  justify-content: center; */
-/*   box-shadow: #4d4d4d 4px 6px 20px; */
-/*   font-size: 100%;
-  margin: auto;
-}
- */
 img {
-  /* border-radius: 0.5rem; */
+   border-radius: 0.5rem;
   padding: 1rem 1rem 0 1rem;
-}
+} 
 
 p {
   text-align: left;
@@ -122,15 +99,14 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
     max-width: 100vw;
   }
 
-  figure,
-  .BFG__uvodni-fotky {
+  .BG__uvodni-fotky {
     flex: 0 0 50%;
     max-width: 45%;
     width: 50%;
     box-sizing: border-box;
     padding: 1rem;
   }
-}
+
 
 /* .figure {
   display: flex;
