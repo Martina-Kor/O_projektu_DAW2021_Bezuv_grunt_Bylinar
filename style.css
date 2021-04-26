@@ -52,8 +52,10 @@ figcaption {
 }
 
 figure img {
-  width: 15em;
-  height: 15em;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 2rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .BG__text--detaily {
@@ -67,12 +69,7 @@ figure img {
   /*   box-shadow: #4d4d4d 4px 6px 20px; */
   font-size: 100%;
   margin: auto;
-  padding: 0.5rem;
-}
-
-img {
-  border-radius: 0.5rem;
-  padding: 1rem 1rem 0 1rem;
+  /*  padding: 0.5rem; */
 }
 
 p {
