@@ -64,6 +64,13 @@ a.Mindmap:hover {
   color: lightgreen;
 }
 
+.miro {
+  width: 25vw;
+  height: 25vh;
+  border-radius: 2rem;
+  padding: 1rem 1rem 0 1rem;
+}
+
 .BG__nadpis {
   text-decoration: underline;
   font-size: 1.5rem;
