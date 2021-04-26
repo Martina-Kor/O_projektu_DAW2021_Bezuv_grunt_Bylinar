@@ -43,8 +43,7 @@ div {
   padding: 1rem;
 }
 
-  /*  box-shadow: #4d4d4d 4px 6px 20px; */
-
+/*  box-shadow: #4d4d4d 4px 6px 20px; */
 
 figcaption {
   text-align: center;
@@ -61,21 +60,20 @@ figure img {
   margin-bottom: 2.5rem;
 }
 
-
 .bylinar__bylina--obr {
   flex-direction: row;
   max-width: 45 vw;
   justify-content: center;
-/*   box-shadow: #4d4d4d 4px 6px 20px; */
+  /*   box-shadow: #4d4d4d 4px 6px 20px; */
   font-size: 100%;
-  margin: auto; 
-  padding:0.5rem;
+  margin: auto;
+  padding: 0.5rem;
 }
 
 img {
-   border-radius: 0.5rem;
+  border-radius: 0.5rem;
   padding: 1rem 1rem 0 1rem;
-} 
+}
 
 p {
   text-align: left;
@@ -91,7 +89,7 @@ TABLET SIZE OPTIMATION, breakpoint at 768px
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
 Source: https://webflow.com/blog/3-new-larger-breakpoints-in-webflow
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-
+/* 
 @media only screen and (min-width: 768px) {
   .body {
     width: 70%;
@@ -106,7 +104,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
     box-sizing: border-box;
     padding: 1rem;
   }
-
+ */
 
 /* .figure {
   display: flex;
