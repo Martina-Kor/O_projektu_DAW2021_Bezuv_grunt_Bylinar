@@ -21,6 +21,49 @@ body {
   padding: 1rem;
 }
 
+.menu {
+  display: flex;
+}
+
+.menu a {
+  display: inline-block;
+  flex-grow: 1;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+
+a.Martina:link,
+a.Martina:visited,
+a.Martina:active {
+  background-color: linear-gradient(#666633, #c3c388);
+  color: #fff;
+}
+
+a.Martina:hover {
+  color: lightgreen;
+}
+
+a.Marie:link,
+a.Marie:visited,
+a.Marie:active {
+  background-color: linear-gradient(#666633, #c3c388);
+  color: #fff;
+}
+
+a.Marie:hover {
+  color: lightgreen;
+}
+a.Mindmap:link,
+a.Mindmap:visited,
+a.Mindmap:active {
+  background-color: linear-gradient(#666633, #c3c388);
+  color: #fff;
+}
+
+a.Mindmap:hover {
+  color: lightgreen;
+}
+
 .BG__nadpis {
   text-decoration: underline;
   font-size: 1.5rem;
