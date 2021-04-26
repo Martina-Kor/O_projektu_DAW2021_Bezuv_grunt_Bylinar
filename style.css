@@ -49,6 +49,7 @@ figcaption {
   text-align: center;
   display: block;
   font-style: italic;
+  margin-bottom: 0.5em;
 }
 
 figure img {
@@ -81,6 +82,37 @@ p {
   font-size: small;
 }
 
+.BG__nadpis {
+  margin-top: 1.2em;
+  margin-bottom: 0;
+}
+
+.bylinar__nadpis {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.bylinar__text--uvod,
+.BG__text--detaily {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.bylinar__text--detaily,
+.poznamka__text,
+.BG__text__uvod {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.poznamka__podtrzeni {
+  margin-top: 1em;
+}
+
+.poznamka__text {
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+  text-align: justify;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TABLET SIZE OPTIMATION, breakpoint at 768px  
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
