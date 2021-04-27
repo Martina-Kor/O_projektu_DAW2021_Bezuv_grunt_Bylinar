@@ -185,12 +185,12 @@ li {
 
 li .aike {
   padding-bottom: 0;
+  vertical-align: middle;
 }
 
 .martina__foto,
 .marie__foto {
   float: left;
-
   margin-right: 3rem;
   margin-left: 2rem;
   margin-bottom: 2rem;
@@ -203,9 +203,9 @@ li .aike {
   float: right;
   margin-top: 1rem;
   margin: auto;
-  padding: 1rem 2rem 2rem 2rem;
-  width: 15rem;
-  height: 10rem;
+  padding: 0 2rem 2rem 2rem;
+  width: 17rem;
+  height: 11rem;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TABLET SIZE OPTIMATION, breakpoint at 768px  
