@@ -68,10 +68,10 @@ a.Mindmap:hover {
 .martina,
 .marie {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  padding: 1rem;
   border-radius: 2rem;
-  width: 50vh;
-  height: auto;
 }
 
 .BG__nadpis {
