@@ -69,7 +69,8 @@ a.Mindmap:hover {
 
 .miro,
 .martina,
-.marie {
+.marie,
+.aike {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -203,7 +204,7 @@ li .aike {
   float: right;
   margin-top: 1rem;
   margin: auto;
-  padding: 0 2rem 2rem 2rem;
+  padding: 0 2rem 0rem 2rem;
   width: 17rem;
   height: 11rem;
 }
