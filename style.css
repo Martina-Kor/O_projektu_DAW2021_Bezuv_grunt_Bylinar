@@ -31,6 +31,9 @@ body {
   font-size: 20px;
   padding: 15px 20px;
 }
+a.Uvod:hover {
+  color: lightgreen;
+}
 
 a.Martina:link,
 a.Martina:visited,
@@ -72,6 +75,9 @@ a.Mindmap:hover {
   justify-content: center;
   padding: 1rem;
   border-radius: 2rem;
+}
+.mindmap__picture {
+  width: 50wv;
 }
 
 .BG__nadpis {
@@ -165,6 +171,41 @@ p {
   margin-bottom: 1.5em;
   margin-top: 1em;
   text-align: justify;
+}
+
+.martina__text,
+.marie__text {
+  text-align: justify;
+}
+
+li {
+  padding: 1rem;
+  list-style-type: circle;
+}
+
+li .aike {
+  padding-bottom: 0;
+}
+
+.martina__foto,
+.marie__foto {
+  float: left;
+
+  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+.aike__foto {
+  float: right;
+  margin-top: 1rem;
+  margin: auto;
+  padding: 1rem 2rem 2rem 2rem;
+  width: 15rem;
+  height: 10rem;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TABLET SIZE OPTIMATION, breakpoint at 768px  
