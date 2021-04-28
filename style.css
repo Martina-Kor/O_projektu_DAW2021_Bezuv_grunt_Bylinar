@@ -73,8 +73,6 @@ a.Mindmap:hover {
 .aike {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 1rem;
   border-radius: 2rem;
 }
 .mindmap__picture {
@@ -195,11 +193,13 @@ li .aike {
   margin-top: 1.5rem;
   width: 12rem;
   height: 12rem;
+  border-radius: 2rem;
 }
 
 .aike__foto {
   margin: auto;
   height: 11rem;
+  border-radius: 2rem;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
