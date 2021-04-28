@@ -28,7 +28,7 @@ body {
 .menu a {
   display: inline-block;
   flex-grow: 1;
-  font-size: 20px;
+  font-size: 16px;
   padding: 15px 20px;
 }
 a.Uvod:hover {
@@ -67,7 +67,7 @@ a.Mindmap:hover {
   color: lightgreen;
 }
 
-.miro,
+/* .miro, */
 .martina,
 .marie,
 .aike {
@@ -78,7 +78,8 @@ a.Mindmap:hover {
   border-radius: 2rem;
 }
 .mindmap__picture {
-  width: 50wv;
+  width: 100%;
+  margin: 1rem auto;
 }
 
 .BG__nadpis {
@@ -181,7 +182,7 @@ p {
 
 li {
   padding: 1rem;
-  list-style-type: circle;
+  list-style-type: square;
 }
 
 li .aike {
@@ -191,29 +192,22 @@ li .aike {
 
 .martina__foto,
 .marie__foto {
-  float: left;
-  margin-right: 3rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
   margin-top: 1.5rem;
   width: 12rem;
   height: 12rem;
 }
 
 .aike__foto {
-  float: right;
-  margin-top: 1rem;
   margin: auto;
-  padding: 0 2rem 0rem 2rem;
-  width: 17rem;
   height: 11rem;
 }
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TABLET SIZE OPTIMATION, breakpoint at 768px  
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
 Source: https://webflow.com/blog/3-new-larger-breakpoints-in-webflow
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-/* 
+
 @media only screen and (min-width: 768px) {
   .body {
     width: 70%;
@@ -221,6 +215,33 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
     max-width: 100vw;
   }
 
+  .martina__foto,
+  .marie__foto {
+    float: left;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .aike__foto {
+    float: right;
+    margin-top: 1rem;
+    margin: auto;
+    padding: 0 2rem 0rem 2rem;
+    height: 11rem;
+  }
+
+  .menu a {
+    display: inline-block;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 15px 20px;
+  }
+
+  /* .mindmap__picture {
+    width: 70wv;
+  } */
+/* 
   .BG__uvodni-fotky {
     flex: 0 0 50%;
     max-width: 45%;
