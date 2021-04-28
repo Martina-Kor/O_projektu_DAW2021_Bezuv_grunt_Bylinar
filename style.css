@@ -204,6 +204,14 @@ li .aike {
   height: 10rem;
   border-radius: 2rem;
 }
+
+  /* .mindmap__h1 {
+  margin: 2rem 0;
+  } */
+
+.mindmap__h3 {
+  font-style: italic;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TABLET SIZE OPTIMATION, breakpoint at 768px  
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
