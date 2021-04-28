@@ -200,8 +200,7 @@ li .aike {
   float: right;
   margin-top: 1rem;
   margin: auto;
-  /*     padding: 0 2rem 0rem 2rem; */
-  height: 11rem;
+  height: 10rem;
   border-radius: 2rem;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -224,18 +223,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
     margin-left: 2rem;
     margin-bottom: 2rem;
   }
-
-  .aike__foto {
-    float: right;
-    margin-top: 1rem;
-    margin: auto;
-    /*     padding: 0 2rem 0rem 2rem; */
-    height: 11rem;
-    border-radius: 2rem;
+  .aike {
+    flex-wrap: nowrap;
   }
 
   .menu a {
-    display: inline-block;
+    display: inline-flex;
     flex-grow: 1;
     font-size: 20px;
     padding: 15px 20px;
