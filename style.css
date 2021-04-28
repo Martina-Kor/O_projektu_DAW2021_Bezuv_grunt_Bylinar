@@ -29,7 +29,7 @@ body {
   display: inline-block;
   flex-grow: 1;
   font-size: 16px;
-  padding: 15px 20px;
+  padding: 1rem 1.2rem;
 }
 a.Uvod:hover {
   color: lightgreen;
@@ -78,6 +78,7 @@ a.Mindmap:hover {
 .mindmap__picture {
   width: 100%;
   margin: 1rem auto;
+  border-radius: 2rem;
 }
 
 .BG__nadpis {
@@ -231,13 +232,14 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
     display: inline-flex;
     flex-grow: 1;
     font-size: 20px;
-    padding: 15px 20px;
+    padding: 1rem 1.2rem;
   }
 
   .mindmap__picture {
     width: 70wv;
+    border-radius: 2rem;
   }
-}
+
 
 /* 
   .BG__uvodni-fotky {
